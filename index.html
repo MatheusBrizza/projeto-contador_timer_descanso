@@ -27,7 +27,7 @@
                             <div class="card-body">
                                 <h4 class="card-title">Tarefa</h4>
                             </div>
-                            <form action="" method="post">
+                            <form method="post">
                                 <div>
                                     <p>O que estudou</p>
                                     <input type="text" name="estudo" id="estudo" placeholder="O que estudou?"
@@ -46,11 +46,11 @@
                                 <h4 class="card-title">Timer</h4>
                                 <div id="timer" class="timer-estudo">
                                     <p>Tempo estudado</p>
-                                    <span id="minutes">00</span>:<span id="seconds">00</span>
+                                    <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
                                 </div>
                                 <div id="timer" class="timer-diversao">
                                     <p>Tempo para diversão</p>
-                                    <span id="minutes">00</span>:<span id="seconds">00</span>
+                                    <span class="diversao-hours">00</span>:<span class="diversao-minutes">00</span>:<span class="diversao-seconds">00</span>
                                 </div>
                             </div>
                         </div>
@@ -62,8 +62,7 @@
                         <div class="card text-center">
                             <div class="card-body">
                                 <h4 class="card-title">Tarefas completadas</h4>
-                                <ul>
-                                    <li id="task"></li>
+                                <ul id="task">
                                 </ul>
                             </div>
                         </div>
